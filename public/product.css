@@ -148,7 +148,7 @@ main {
 
 .btn {
   display: inline-block;
-  padding: 0.25rem 1rem;
+  padding: 0.3rem 1rem 0.1rem 1rem;
   text-decoration: none;
   font: inherit;
   border: 1px solid #00695c;
@@ -156,21 +156,12 @@ main {
   background: white;
   border-radius: 3px;
   cursor: pointer;
+  text-align: center;
+
 }
 
 .btn:hover,
 .btn:active {
   background-color: #00695c;
-  color: white;
-}
-
-.btn.danger {
-  color: red;
-  border-color: red;
-}
-
-.btn.danger:hover,
-.btn.danger:active {
-  background: red;
   color: white;
 }
